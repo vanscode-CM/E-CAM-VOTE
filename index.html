@@ -1,0 +1,406 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-CAM-VOTE - Plateforme Électorale Cameroun | Vote Électronique Sécurisé</title>
+    <meta name="description"
+        content="E-CAM-VOTE est la plateforme électorale officielle du Cameroun. Inscription des électeurs, vote électronique sécurisé, consultation des résultats en temps réel. Démocratie numérique transparente et accessible 24/7.">
+    <meta name="keywords"
+        content="vote électronique Cameroun, plateforme électorale, E-CAM-VOTE, inscription électeur, résultats élections">
+    <link rel="canonical" href="https://ecamvote.cm/">
+    <meta name="geo.region" content="CM">
+    <meta name="geo.placename" content="Cameroun">
+    <meta property="og:title" content="E-CAM-VOTE - Plateforme Électorale du Cameroun">
+    <meta property="og:description"
+        content="Votez en toute sécurité et transparence. Plateforme électorale numérique officielle.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'cam-green': '#007E33',
+              'cam-yellow': '#FCD116',
+              'cam-red': '#CE1126',
+            }
+          }
+        }
+      }
+    </script>
+
+</head>
+
+<body>
+    <div id="root">
+        <div class="min-h-screen bg-white font-ubuntu">
+            <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white shadow-lg"
+                style="transform: none;">
+                <nav class="mx-auto px-6 lg:px-24 py-4">
+                    <div class="flex items-center justify-between"><a class="flex items-center gap-3"
+                            href="/preview/b48b235a-9933-4b04-acb9-204f2639b84f/4823254" data-discover="true"><img
+                                alt="E-CAM-VOTE Logo" class="h-12 w-auto"
+                                src="https://public.readdy.ai/ai/img_res/85587ba0-d223-4242-9236-2e7e834ee4af.png"><span
+                                class="font-ubuntu font-bold text-2xl text-cam-green">E-CAM-VOTE</span></a>
+                            <div class="hidden lg:flex items-center gap-10"><a
+                                class="font-ubuntu font-medium text-base relative group text-gray-700"
+                                href="index.html"
+                                data-discover="true">Accueil<span
+                                    class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full "></span></a><a
+                                class="font-ubuntu font-medium text-base relative group text-gray-700"
+                                href="inscription.html"
+                                data-discover="true">Inscription<span
+                                    class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full "></span></a><a
+                                class="font-ubuntu font-medium text-base relative group text-gray-700"
+                                href="vote.html"
+                                data-discover="true">Voter<span
+                                    class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full "></span></a><a
+                                class="font-ubuntu font-medium text-base relative group text-gray-700"
+                                href="resultat.html"
+                                data-discover="true">Résultats<span
+                                    class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full "></span></a><a
+                                class="font-ubuntu font-medium text-base relative group text-cam-green"
+                                href="aide.html"
+                                data-discover="true">Aide<span
+                                    class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full w-full"></span></a>
+                        </div>
+                        <div class="hidden lg:flex items-center gap-4"><button
+                                class="font-ubuntu font-medium px-6 py-2.5 border-2 border-cam-green text-cam-green rounded-full hover:bg-cam-green hover:text-white transition-all duration-300 whitespace-nowrap">Connexion</button><a
+                                href="inscription.html"
+                                data-discover="true"><button
+                                    class="font-ubuntu font-medium px-6 py-2.5 bg-cam-red text-white rounded-full hover:bg-opacity-90 transition-all duration-300 whitespace-nowrap">S'inscrire</button></a>
+                        </div><button class="lg:hidden text-2xl text-cam-green"><i class="ri-menu-line"></i></button>
+                    </div>
+                </nav>
+            </header>
+            <main>
+<section class="relative min-h-screen pt-20">
+                    <div class="absolute inset-0 bg-gradient-to-br from-yellow-50 via-white to-green-50 opacity-60">
+                    </div>
+                    <div class="absolute inset-0 opacity-5">
+                        <div class="absolute top-20 left-10 w-32 h-32 border-4 border-cam-green rotate-45"></div>
+                        <div class="absolute bottom-40 right-20 w-24 h-24 border-4 border-cam-yellow rotate-12"></div>
+                        <div class="absolute top-1/2 left-1/4 w-16 h-16 border-4 border-cam-red"></div>
+                    </div>
+                    <div class="relative" style="opacity: 1; transform: none;">
+                        <div class="relative w-full h-96 lg:h-[600px] overflow-hidden shadow-2xl">
+                            <img alt="Bâtiment gouvernemental camerounais"
+                                class="w-full h-full object-cover object-top"
+                                src="src/flag.jpg">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-cam-yellow/40 via-transparent to-transparent">
+                            </div>
+                            <div class="absolute inset-0 opacity-15">
+                                <div
+                                    class="absolute top-10 right-10 w-20 h-20 border-2 border-cam-yellow rotate-45">
+                                </div>
+                                <div class="absolute bottom-20 left-10 w-16 h-16 border-2 border-white"></div>
+                            </div>
+                            <div class="absolute left-0 top-0 p-6 lg:p-24 pt-20" style="opacity: 1; transform: none;">
+                                <div class="mb-6"><span
+                                        class="font-ubuntu font-light text-sm text-white flex items-center gap-2">République
+                                        du Cameroun<span class="w-2 h-2 bg-cam-yellow rounded-full"></span>Démocratie
+                                        Numérique</span></div>
+                                <h1
+                                    class="font-ubuntu font-bold text-5xl lg:text-7xl text-white leading-tight mb-8">
+                                    VOTEZ EN TOUTE<br><span
+                                        class="bg-gradient-to-r from-cam-green to-cam-yellow bg-clip-text text-transparent text-6xl lg:text-8xl">SÉCURITÉ</span><br><span
+                                        class="text-5xl lg:text-7xl text-white">TRANSPARENCE</span></h1>
+                                <p class="font-ubuntu text-lg text-white leading-relaxed max-w-xl mb-10">E-CAM-VOTE
+                                    est la plateforme électorale officielle du Cameroun. Participez à la démocratie
+                                    numérique avec un système sécurisé, transparent et accessible à tous les citoyens
+                                    camerounais.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-20 px-6 lg:px-24 bg-white">
+                    <div class="text-center mb-16" style="opacity: 1; transform: none;">
+                        <h2 class="font-ubuntu font-bold text-5xl text-cam-green mb-4">Accédez aux Services</h2>
+                        <p class="font-ubuntu text-lg text-gray-600 max-w-2xl mx-auto">Une plateforme complète pour
+                            participer activement à la démocratie camerounaise</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                        <div class="relative rounded-2xl overflow-hidden group cursor-pointer"
+                            style="opacity: 1; transform: none; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;">
+                            <div class="relative w-full h-96"><img alt="S'inscrire"
+                                    class="w-full h-full object-cover object-top"
+                                    src="https://readdy.ai/api/search-image?query=African%20person%20registering%20on%20digital%20tablet%20with%20Cameroon%20traditional%20Ndop%20pattern%20background%2C%20modern%20technology%20meets%20cultural%20heritage%2C%20warm%20lighting%2C%20professional%20registration%20process%2C%20green%20and%20yellow%20color%20scheme%2C%20clean%20simple%20background%20highlighting%20subject%2C%20digital%20democracy%20concept&amp;width=600&amp;height=750&amp;seq=feature-inscription-001&amp;orientation=portrait">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-b from-cam-green to-green-600 opacity-90 group-hover:opacity-95 transition-opacity duration-300">
+                                </div>
+                            </div>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
+                                <div class="w-16 h-16 flex items-center justify-center mb-6"><i
+                                        class="ri-user-add-line text-6xl text-cam-yellow"></i></div>
+                                <h3 class="font-ubuntu font-bold text-3xl text-white mb-4">S'inscrire</h3>
+                                <p class="font-ubuntu text-base text-white/90 mb-8 leading-relaxed">Inscription rapide
+                                    et sécurisée pour tous les citoyens camerounais éligibles</p><a
+                                    href="inscription.html"
+                                    data-discover="true"><button
+                                        class="border-2 border-white text-white font-ubuntu font-medium px-8 py-3 rounded-full group-hover:bg-white group-hover:text-cam-green transition-all duration-300 whitespace-nowrap">Accéder</button></a>
+                                <div
+                                    class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <span
+                                        class="bg-white text-cam-green text-xs font-ubuntu font-bold px-3 py-1 rounded-full">Sécurisé</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative rounded-2xl overflow-hidden group cursor-pointer"
+                            style="opacity: 1; transform: none; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;">
+                            <div class="relative w-full h-96"><img alt="Voter Maintenant"
+                                    class="w-full h-full object-cover object-top"
+                                    src="https://readdy.ai/api/search-image?query=Digital%20voting%20ballot%20box%20with%20Cameroon%20cultural%20geometric%20patterns%2C%20secure%20electronic%20voting%20interface%2C%20yellow%20and%20orange%20warm%20tones%2C%20modern%20democratic%20technology%2C%20clean%20minimalist%20background%2C%20stylized%20traditional%20motifs%2C%20professional%20institutional%20design&amp;width=600&amp;height=750&amp;seq=feature-vote-002&amp;orientation=portrait">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-b from-cam-yellow to-orange-400 opacity-90 group-hover:opacity-95 transition-opacity duration-300">
+                                </div>
+                            </div>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
+                                <div class="w-16 h-16 flex items-center justify-center mb-6"><i
+                                        class="ri-inbox-line text-6xl text-cam-yellow"></i></div>
+                                <h3 class="font-ubuntu font-bold text-3xl text-white mb-4">Voter Maintenant</h3>
+                                <p class="font-ubuntu text-base text-white/90 mb-8 leading-relaxed">Exprimez votre voix
+                                    en toute sécurité avec notre système de vote crypté</p><a
+                                    href="vote.html"
+                                    data-discover="true"><button
+                                        class="border-2 border-white text-white font-ubuntu font-medium px-8 py-3 rounded-full group-hover:bg-white group-hover:text-cam-green transition-all duration-300 whitespace-nowrap">Accéder</button></a>
+                                <div
+                                    class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <span
+                                        class="bg-white text-cam-green text-xs font-ubuntu font-bold px-3 py-1 rounded-full">Sécurisé</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative rounded-2xl overflow-hidden group cursor-pointer"
+                            style="opacity: 1; transform: none;">
+                            <div class="relative w-full h-96"><img alt="Consulter Résultats"
+                                    class="w-full h-full object-cover object-top"
+                                    src="https://readdy.ai/api/search-image?query=Modern%20data%20visualization%20dashboard%20with%20Cameroon%20geometric%20patterns%2C%20election%20results%20charts%20and%20graphs%2C%20red%20color%20scheme%20with%20traditional%20African%20design%20elements%2C%20clean%20simple%20background%2C%20professional%20analytics%20interface%2C%20transparent%20democratic%20process%20visualization&amp;width=600&amp;height=750&amp;seq=feature-results-003&amp;orientation=portrait">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-b from-cam-red to-red-600 opacity-90 group-hover:opacity-95 transition-opacity duration-300">
+                                </div>
+                            </div>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
+                                <div class="w-16 h-16 flex items-center justify-center mb-6"><i
+                                        class="ri-bar-chart-box-line text-6xl text-cam-yellow"></i></div>
+                                <h3 class="font-ubuntu font-bold text-3xl text-white mb-4">Consulter Résultats</h3>
+                                <p class="font-ubuntu text-base text-white/90 mb-8 leading-relaxed">Accédez aux
+                                    résultats en temps réel avec une transparence totale</p><a
+                                    href="resultat.html"
+                                    data-discover="true"><button
+                                        class="border-2 border-white text-white font-ubuntu font-medium px-8 py-3 rounded-full group-hover:bg-white group-hover:text-cam-green transition-all duration-300 whitespace-nowrap">Accéder</button></a>
+                                <div
+                                    class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <span
+                                        class="bg-white text-cam-green text-xs font-ubuntu font-bold px-3 py-1 rounded-full">Sécurisé</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-24 px-6 lg:px-24 bg-amber-50">
+                    <div class="max-w-5xl mx-auto">
+                        <div class="text-center" style="opacity: 1; transform: none;">
+                            <h2 class="font-ubuntu font-bold text-5xl text-cam-green mb-8">Une Plateforme de Confiance
+                            </h2>
+                            <div class="inline-flex items-center gap-3 bg-gray-900 px-6 py-3 rounded-full mb-12"><i
+                                    class="ri-star-fill text-cam-yellow text-xl"></i><span
+                                    class="font-ubuntu font-medium text-white">Certifié ELECAM</span></div>
+                            <div class="mb-12" style="opacity: 1; transform: none;">
+                                <blockquote
+                                    class="font-ubuntu font-light text-2xl text-gray-800 leading-relaxed mb-10 max-w-3xl mx-auto">
+                                    « E-CAM-VOTE représente une avancée majeure pour la démocratie camerounaise. La
+                                    transparence et la sécurité du système inspirent confiance à tous les observateurs
+                                    internationaux. »</blockquote>
+                                <div class="flex items-center justify-center gap-4">
+                                    <div class="relative w-14 h-14"><img alt="Dr. Marie Nguema"
+                                            class="w-full h-full rounded-full object-cover border-3 border-cam-green"
+                                            src="https://readdy.ai/api/search-image?query=Professional%20African%20woman%20electoral%20observer%20wearing%20formal%20attire%2C%20confident%20smile%2C%20neutral%20clean%20background%2C%20professional%20headshot%20photography%2C%20warm%20lighting%2C%20credible%20democratic%20expert%20portrait&amp;width=200&amp;height=200&amp;seq=avatar-marie-001&amp;orientation=squarish">
+                                    </div>
+                                    <div class="text-left">
+                                        <p class="font-ubuntu font-medium text-lg text-cam-green">Dr. Marie Nguema</p>
+                                        <p class="font-ubuntu text-sm text-gray-600">Observatrice Électorale</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-3"><button
+                                    class="w-12 h-12 flex items-center justify-center border border-gray-300 rounded-lg hover:bg-cam-green hover:text-white hover:border-cam-green transition-all duration-300 cursor-pointer"><i
+                                        class="ri-arrow-left-line text-xl"></i></button><button
+                                    class="w-12 h-12 flex items-center justify-center bg-cam-green text-white rounded-lg hover:bg-green-700 transition-all duration-300 cursor-pointer"><i
+                                        class="ri-arrow-right-line text-xl"></i></button></div>
+                            <div class="flex items-center justify-center gap-2 mt-6"><button
+                                    class="w-2 h-2 rounded-full transition-all duration-300 cursor-pointer bg-cam-green w-8"></button><button
+                                    class="w-2 h-2 rounded-full transition-all duration-300 cursor-pointer bg-gray-300"></button><button
+                                    class="w-2 h-2 rounded-full transition-all duration-300 cursor-pointer bg-gray-300"></button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-20 px-6 lg:px-24 bg-white">
+                    <div class="max-w-7xl mx-auto">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                            <div class="relative text-center p-8 rounded-2xl bg-gradient-to-br from-gray-50 to-white hover:shadow-xl transition-all duration-300"
+                                style="opacity: 1; transform: none;">
+                                <div class="absolute inset-0 opacity-5"><i
+                                        class="ri-user-line text-9xl text-cam-green"></i></div>
+                                <div class="relative z-10">
+                                    <div class="font-ubuntu font-bold text-6xl text-cam-green mb-3">2.5M+</div>
+                                    <p class="font-ubuntu text-base text-gray-600 leading-relaxed">Électeurs Inscrits
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="relative text-center p-8 rounded-2xl bg-gradient-to-br from-gray-50 to-white hover:shadow-xl transition-all duration-300"
+                                style="opacity: 1; transform: none;">
+                                <div class="absolute inset-0 opacity-5"><i
+                                        class="ri-shield-check-line text-9xl text-cam-yellow"></i></div>
+                                <div class="relative z-10">
+                                    <div class="font-ubuntu font-bold text-6xl text-cam-yellow mb-3">99.9%</div>
+                                    <p class="font-ubuntu text-base text-gray-600 leading-relaxed">Disponibilité Système
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="relative text-center p-8 rounded-2xl bg-gradient-to-br from-gray-50 to-white hover:shadow-xl transition-all duration-300"
+                                style="opacity: 1; transform: none;">
+                                <div class="absolute inset-0 opacity-5"><i
+                                        class="ri-lock-line text-9xl text-cam-red"></i></div>
+                                <div class="relative z-10">
+                                    <div class="font-ubuntu font-bold text-6xl text-cam-red mb-3">256-bit</div>
+                                    <p class="font-ubuntu text-base text-gray-600 leading-relaxed">Cryptage Sécurisé</p>
+                                </div>
+                            </div>
+                            <div class="relative text-center p-8 rounded-2xl bg-gradient-to-br from-gray-50 to-white hover:shadow-xl transition-all duration-300"
+                                style="opacity: 1; transform: none;">
+                                <div class="absolute inset-0 opacity-5"><i
+                                        class="ri-customer-service-line text-9xl text-cam-green"></i></div>
+                                <div class="relative z-10">
+                                    <div class="font-ubuntu font-bold text-6xl text-cam-green mb-3">24/7</div>
+                                    <p class="font-ubuntu text-base text-gray-600 leading-relaxed">Support Technique</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-20 px-6 lg:px-24">
+                    <div class="max-w-7xl mx-auto">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 rounded-3xl overflow-hidden shadow-2xl">
+                            <div class="relative w-full h-96 lg:h-auto"><img alt="Jeunes camerounais votant"
+                                    class="w-full h-full object-cover object-top"
+                                    src="https://readdy.ai/api/search-image?query=Young%20diverse%20African%20people%20using%20smartphones%20for%20digital%20voting%2C%20modern%20Cameroon%20youth%20engaged%20with%20mobile%20technology%2C%20hopeful%20expressions%2C%20vibrant%20yellow%20background%20with%20subtle%20traditional%20patterns%2C%20contemporary%20democratic%20participation%2C%20clean%20simple%20background%20highlighting%20subjects%2C%20bright%20optimistic%20lighting%2C%20digital%20empowerment%20concept&amp;width=900&amp;height=900&amp;seq=cta-youth-001&amp;orientation=squarish">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-r from-cam-yellow/30 via-cam-yellow/20 to-transparent">
+                                </div>
+                                <div class="absolute top-8 left-8"><span
+                                        class="font-ubuntu font-light text-sm text-cam-green bg-white/90 px-4 py-2 rounded-full">Nouvelle
+                                        Génération</span></div>
+                                <div class="absolute bottom-8 left-8">
+                                    <h3
+                                        class="font-ubuntu font-black text-5xl lg:text-6xl text-cam-green drop-shadow-lg leading-tight">
+                                        VOTRE VOIX<br><span class="text-7xl">COMPTE</span><br>AUJOURD'HUI</h3>
+                                </div>
+                            </div>
+                            <div class="bg-white flex flex-col items-center justify-center p-12 lg:p-16">
+                                <div class="text-center max-w-md" style="opacity: 1; transform: none;">
+                                    <h2 class="font-ubuntu font-bold text-5xl text-gray-900 mb-6 leading-tight">Prêt à
+                                        Participer ?</h2>
+                                    <p class="font-ubuntu text-lg text-gray-600 leading-relaxed mb-10">Rejoignez des
+                                        millions de Camerounais qui font entendre leur voix. Inscrivez-vous dès
+                                        maintenant et participez à la construction d'un Cameroun démocratique et
+                                        transparent.</p><a
+                                        href="inscription.html"
+                                        data-discover="true"><button
+                                            class="bg-cam-red text-white font-ubuntu font-medium text-lg px-10 py-5 rounded-full hover:bg-opacity-90 transition-all duration-300 flex items-center justify-center gap-3 mx-auto shadow-xl whitespace-nowrap"
+                                            tabindex="0">Commencer Maintenant<i
+                                                class="ri-arrow-right-line text-2xl"></i></button></a>
+                                    <div class="mt-10 flex items-center justify-center gap-6 text-sm text-gray-500">
+                                        <div class="flex items-center gap-2"><i
+                                                class="ri-shield-check-line text-cam-green text-xl"></i><span
+                                                class="font-ubuntu">100% Sécurisé</span></div>
+                                        <div class="flex items-center gap-2"><i
+                                                class="ri-time-line text-cam-yellow text-xl"></i><span
+                                                class="font-ubuntu">2 min d'inscription</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="bg-gray-900 rounded-t-3xl mt-20">
+                <div class="mx-auto px-6 lg:px-24 py-16">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-12">
+                        <div class="lg:col-span-5">
+                            <h3 class="font-ubuntu font-bold text-3xl text-white mb-4">E-CAM-VOTE</h3>
+                            <p class="font-ubuntu font-light text-sm text-gray-400 leading-relaxed mb-6 max-w-md">
+                                Plateforme électorale officielle de la République du Cameroun. Votez en toute sécurité
+                                et transparence grâce à notre système numérique certifié et accessible 24/7.</p>
+                            <div class="flex flex-col gap-4"><input placeholder="Votre email"
+                                    class="bg-transparent border-b border-white text-white placeholder-gray-400 py-2 focus:outline-none focus:border-cam-yellow transition-colors"
+                                    type="email"><button
+                                    class="bg-white text-gray-900 font-ubuntu font-medium px-6 py-2.5 rounded-full hover:bg-cam-yellow transition-all duration-300 w-40 whitespace-nowrap flex items-center justify-center gap-2">S'abonner<i
+                                        class="ri-arrow-right-line"></i></button></div>
+                        </div>
+                        <div class="lg:col-span-3 lg:col-start-7">
+                            <h4 class="font-ubuntu font-medium text-base text-cam-yellow mb-6">Navigation</h4>
+                            <ul class="space-y-4">
+                                <li><a class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
+                                        href="inscription.html"
+                                        data-discover="true">Inscription</a></li>
+                                <li><a class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
+                                        href="vote.html"
+                                        data-discover="true">Voter</a></li>
+                                <li><a class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
+                                        href="resultat.html"
+                                        data-discover="true">Résultats</a></li>
+                                <li><a class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
+                                        href="candidature.html"
+                                        data-discover="true">Candidature</a></li>
+                                <li><a class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
+                                        href="aide.html"
+                                        data-discover="true">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="lg:col-span-4">
+                            <h4 class="font-ubuntu font-medium text-base text-cam-yellow mb-6">Contact</h4>
+                            <div class="space-y-3 mb-6">
+                                <p class="font-ubuntu text-sm text-white">+237 XXX XXX XXX</p>
+                                <p class="font-ubuntu text-sm text-white">contact@ecamvote.cm</p>
+                            </div>
+                            <h4 class="font-ubuntu font-medium text-base text-cam-yellow mb-4">Adresse</h4>
+                            <p class="font-ubuntu text-sm text-gray-400 leading-relaxed">ELECAM - Elections
+                                Cameroon<br>Yaoundé, Cameroun</p>
+                        </div>
+                    </div>
+                    <div
+                        class="border-t border-gray-800 pt-8 flex flex-col lg:flex-row items-center justify-between gap-6">
+                        <div class="flex items-center gap-6"><a href="https://facebook.com" target="_blank"
+                                rel="noopener noreferrer"
+                                class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors">Facebook</a><a
+                                href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                                class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors">Twitter</a><a
+                                href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                                class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors">LinkedIn</a>
+                        </div>
+                        <p class="font-ubuntu font-light text-sm text-gray-500">© 2025 E-CAM-VOTE • République du
+                            Cameroun</p>
+                        <p class="font-ubuntu font-light text-sm text-gray-500">DEV VANSCODE</p>
+                        <div class="flex items-center gap-5"><a
+                                class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
+                                href="/preview/b48b235a-9933-4b04-acb9-204f2639b84f/4823254/confidentialite"
+                                data-discover="true">Confidentialité</a><a
+                                class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
+                                href="/preview/b48b235a-9933-4b04-acb9-204f2639b84f/4823254/conditions"
+                                data-discover="true">Conditions</a></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
