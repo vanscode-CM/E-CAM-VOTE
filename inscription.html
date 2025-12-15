@@ -21,6 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/nav.css">
     <script>
       tailwind.config = {
         theme: {
@@ -43,38 +44,45 @@
                 style="transform: none;">
                 <nav class="mx-auto px-6 lg:px-24 py-4">
                     <div class="flex items-center justify-between"><a class="flex items-center gap-3"
-                            href="/preview/b48b235a-9933-4b04-acb9-204f2639b84f/4823254" data-discover="true"><img
-                                alt="E-CAM-VOTE Logo" class="h-12 w-auto"
+                            href="index.html"><img alt="E-CAM-VOTE Logo" class="h-12 w-auto"
                                 src="https://public.readdy.ai/ai/img_res/85587ba0-d223-4242-9236-2e7e834ee4af.png"><span
                                 class="font-ubuntu font-bold text-2xl text-cam-green">E-CAM-VOTE</span></a>
-                            <div class="hidden lg:flex items-center gap-10"><a
+                        <div class="hidden lg:flex items-center gap-10"><a
                                 class="font-ubuntu font-medium text-base relative group text-gray-700"
-                                href="index.html"
-                                data-discover="true">Accueil<span
+                                href="index.html">Accueil<span
                                     class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full "></span></a><a
                                 class="font-ubuntu font-medium text-base relative group text-gray-700"
-                                href="inscription.html"
-                                data-discover="true">Inscription<span
+                                href="inscription.html">Inscription<span
                                     class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full "></span></a><a
                                 class="font-ubuntu font-medium text-base relative group text-gray-700"
-                                href="vote.html"
-                                data-discover="true">Voter<span
+                                href="vote.html">Voter<span
                                     class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full "></span></a><a
                                 class="font-ubuntu font-medium text-base relative group text-gray-700"
-                                href="resultat.html"
-                                data-discover="true">Résultats<span
+                                href="resultat.html">Résultats<span
                                     class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full "></span></a><a
-                                class="font-ubuntu font-medium text-base relative group text-cam-green"
-                                href="aide.html"
-                                data-discover="true">Aide<span
-                                    class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full w-full"></span></a>
+                                class="font-ubuntu font-medium text-base relative group text-gray-700"
+                                href="candidature.html">Candidature<span
+                                    class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full "></span></a><a
+                                class="font-ubuntu font-medium text-base relative group text-gray-700"
+                                href="aide.html">Aide<span
+                                    class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cam-yellow transition-all duration-300 group-hover:w-full "></span></a>
                         </div>
                         <div class="hidden lg:flex items-center gap-4"><button
                                 class="font-ubuntu font-medium px-6 py-2.5 border-2 border-cam-green text-cam-green rounded-full hover:bg-cam-green hover:text-white transition-all duration-300 whitespace-nowrap">Connexion</button><a
-                                href="/preview/b48b235a-9933-4b04-acb9-204f2639b84f/4823254/inscription"
-                                data-discover="true"><button
+                                href="inscription.html"><button
                                     class="font-ubuntu font-medium px-6 py-2.5 bg-cam-red text-white rounded-full hover:bg-opacity-90 transition-all duration-300 whitespace-nowrap">S'inscrire</button></a>
-                        </div><button class="lg:hidden text-2xl text-cam-green"><i class="ri-menu-line"></i></button>
+                        </div><button class="lg:hidden text-2xl text-cam-green mobile-menu-button" aria-expanded="false" aria-label="Ouvrir le menu"><i class="ri-menu-line"></i></button>
+                        <div id="mobile-menu" class="lg:hidden closed absolute top-full left-0 right-0 bg-white shadow-md z-50">
+                            <div class="flex flex-col p-4 space-y-2">
+                                <a href="index.html" class="py-2 px-4 rounded hover:bg-gray-100">Accueil</a>
+                                <a href="inscription.html" class="py-2 px-4 rounded hover:bg-gray-100">Inscription</a>
+                                <a href="vote.html" class="py-2 px-4 rounded hover:bg-gray-100">Voter</a>
+                                <a href="resultat.html" class="py-2 px-4 rounded hover:bg-gray-100">Résultats</a>
+                                <a href="candidature.html" class="py-2 px-4 rounded hover:bg-gray-100">Candidature</a>
+                                <a href="aide.html" class="py-2 px-4 rounded hover:bg-gray-100">Aide</a>
+                                <div class="pt-2"><a href="inscription.html" class="block text-center bg-cam-red text-white px-4 py-2 rounded">S'inscrire</a></div>
+                            </div>
+                        </div>
                     </div>
                 </nav>
             </header>
@@ -157,19 +165,19 @@
                             <h4 class="font-ubuntu font-medium text-base text-cam-yellow mb-6">Navigation</h4>
                             <ul class="space-y-4">
                                 <li><a class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
-                                        href="/preview/b48b235a-9933-4b04-acb9-204f2639b84f/4823254/inscription"
+                                        href="inscription.html"
                                         data-discover="true">Inscription</a></li>
                                 <li><a class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
-                                        href="/preview/b48b235a-9933-4b04-acb9-204f2639b84f/4823254/vote"
+                                        href="vote.html"
                                         data-discover="true">Voter</a></li>
                                 <li><a class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
-                                        href="/preview/b48b235a-9933-4b04-acb9-204f2639b84f/4823254/resultat"
+                                        href="resultat.html"
                                         data-discover="true">Résultats</a></li>
                                 <li><a class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
-                                        href="/preview/b48b235a-9933-4b04-acb9-204f2639b84f/4823254/candidature"
+                                        href="candidature.html"
                                         data-discover="true">Candidature</a></li>
                                 <li><a class="font-ubuntu text-sm text-white hover:underline hover:text-cam-yellow transition-colors"
-                                        href="/preview/b48b235a-9933-4b04-acb9-204f2639b84f/4823254/faq"
+                                        href="aide.html"
                                         data-discover="true">FAQ</a></li>
                             </ul>
                         </div>
@@ -211,7 +219,9 @@
         </div>
     </div>
 
-   
+
 </body>
+
+<script src="src/nav.js"></script>
 
 </html>

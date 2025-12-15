@@ -1,0 +1,5 @@
+/* Styles for mobile nav open/close animation */
+#mobile-menu{max-height:0;opacity:0;overflow:hidden;transition:max-height .28s ease,opacity .2s ease;transform-origin:top;}
+#mobile-menu.open{max-height:520px;opacity:1}
+#mobile-menu .py-2{transition:background-color .15s}
+@media(min-width:1024px){#mobile-menu{display:none!important}}
